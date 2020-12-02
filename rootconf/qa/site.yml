@@ -1,0 +1,11 @@
+---
+# This playbook deploys a simple app server to check the rds to ec2 connectivity.
+
+- hosts: dev
+  remote_user: ec2-user
+  become: true
+  vars:
+
+  roles:
+    - sravan.openjdk
+    - demo.app

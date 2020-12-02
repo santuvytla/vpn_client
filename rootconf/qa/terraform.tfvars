@@ -1,0 +1,6 @@
+aws_profile		= "default"
+aws_region		= "us-east-1"
+key_name		= "kryptonite"
+public_key_path		= "C:\\Users\\sravan\\.ssh\\id_rsa.pub"
+dev_instance_type	= "t2.micro"
+dev_ami			= "ami-0947d2ba12ee1ff75"
